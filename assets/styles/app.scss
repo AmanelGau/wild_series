@@ -1,2 +1,13 @@
 @import "custom";
 @import "~bootstrap/scss/bootstrap";
+$primary: #F0D6F0;
+$secondary: #706470;
+:root {
+    --bs-primary: #F0D6F0;
+    --bs-secondary: #706470;
+}
+
+body {
+    background-color: #FCE1FC;
+    color: var(--bs-secondary);
+}
